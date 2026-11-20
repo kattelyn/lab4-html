@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Лабораторна робота №4: рухомі рядки HTML">
+    <meta name="keywords" content="HTML, marquee, лабораторна робота, Шевчук">
+    <title>Завдання 4.2 — вертикальні рядки</title>
+    <style>
+        body{font-family:Arial,sans-serif;background:#fbf1f8;color:#614b68;margin:0;padding:36px}main{max-width:1000px;margin:auto;background:#fff;border-radius:28px;padding:36px;box-shadow:0 6px 25px #bba4bb33}h1{color:#875d91}nav a{color:#875d91;margin-right:20px}section{margin:20px 0}marquee{border-radius:14px;display:block;padding:8px 0;font-size:20px;font-weight:600}.foot{margin-top:30px;color:#806b84;font-size:14px}.vgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.vgrid marquee{height:290px;font-size:17px;text-align:center}.vgrid img{width:100px;max-width:90%;height:auto}
+    </style>
+</head>
+<body>
+    <main>
+        <nav><a href="index.html">Усі завдання</a><a href="ShevchukLab04-1.htm">№1</a><a href="ShevchukLab04-2.htm">№2</a><a href="ShevchukLab04-3.htm">№3</a></nav>
+        <h1>П’ять вертикальних рядків</h1>
+        <p>Рух тексту та зображень у вертикальному напрямку.</p>
+        <div class="vgrid">
+            <section><h3>1. Коливання</h3><marquee behavior="alternate" direction="up" bgcolor="#EAD6ED" height="290" scrollamount="3"><img src="image/dance.png" alt="Музичний символ"><p>Рух і танці</p></marquee></section>
+            <section><h3>2. Знизу вгору</h3><marquee behavior="scroll" direction="up" bgcolor="#DDECF0" height="290" scrollamount="3"><img src="image/book.png" alt="Символ навчання"><br><img src="image/code.png" alt="Символ коду"><br><img src="image/dance.png" alt="Символ танців"></marquee></section>
+            <section><h3>3. Згори вниз</h3><marquee behavior="slide" direction="down" bgcolor="#F7E5D9" height="290" scrollamount="3"><img src="image/code.png" alt="Програмування"><br><img src="image/book.png" alt="Навчання"></marquee></section>
+            <section><h3>4. Затримка 40 мс</h3><marquee behavior="scroll" direction="up" bgcolor="#E7E5F8" height="290" scrolldelay="40" scrollamount="3">Навчання<br>Практика<br>Успіх</marquee></section>
+            <section><h3>5. Затримка 180 мс</h3><marquee behavior="scroll" direction="down" bgcolor="#E2F1E8" height="290" scrolldelay="180" scrollamount="3">Музика<br>Танці<br>Натхнення</marquee></section>
+        </div>
+        <p class="foot">Шевчук Катерина · група 305-ТН · Лабораторна робота №4</p>
+    </main>
+</body>
+</html>
